@@ -14,7 +14,7 @@
 
 (transient-mark-mode t)
 ;(setq x-select-enable-clipboard t)
-(setq frame-title-format "Guoqiang Jin@%b")
+(setq frame-title-format "Kai Chen@%b")
 (setq-default ispell-program-name "aspell")
 
 ;;去掉工具栏
@@ -24,9 +24,9 @@
 ;;去掉菜单栏
 (menu-bar-mode -1)
 ;;F10默认绑定到菜单栏, 暂时使用不爽，留着。
-(setq user-full-name "Guoqiang Jin")
+(setq user-full-name "Kai Chen")
 ;(setq usr-full-address "ustczhan@gmail.com")
-(setq user-mail-address "ustczhan@gmail.com")
+(setq user-mail-address "chk0105@gmail.com")
 #+END_SRC
 * 小功能定制
 #+BEGIN_SRC emacs-lisp
