@@ -78,7 +78,7 @@
     (progn (setenv "PATH" (concat "d:/cygwin/bin;" (getenv "PATH")))
            (setq exec-path (cons "d:/cygwin/bin/" exec-path))
            (setq null-device "/dev/null"))
-  (add-to-list 'Info-default-directory-list "~/myEmacs/info")
+  (add-to-list 'Info-default-directory-list "~/my_emacs/info")
   ;(push "~/myEmacs/info" Info-directory-list)
   )
 ;(require ‘cygwin-mount)

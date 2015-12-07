@@ -1,7 +1,7 @@
 ;;=========================================================
 ;;============关于 custom 的配置=============================
 ;;=========================================================
-;;Time-stamp: <kai 2015-12-05 20:37:42>
+;;Time-stamp: <kai 2015-12-07 17:04:43>
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
@@ -12,8 +12,10 @@
  '(custom-safe-themes
    (quote
 	("41ff656ce344a7d09904ad4c6dff8074b5177d5c3d5d46f64fea5cb29623534b" "d6bb035c861c43421da24bb69d06a65c945c1ee2f38e7e9749fcfd10e6627690" default)))
-; '(org-agenda-files nil)
- '(org-export-backends (quote (ascii beamer html icalendar latex md gfm))))
+ '(org-export-backends (quote (ascii beamer html icalendar latex md gfm)))
+ '(package-selected-packages
+   (quote
+	(eldoc-eval zeal-at-point yasnippet undo-tree swiper smartparens rainbow-mode rainbow-delimiters pyvenv pcomplete-extension pcmpl-git org-plus-contrib org multiple-cursors magit linum-relative irony htmlize helm-projectile helm-ls-git guru-mode grizzl geiser flycheck-color-mode-line expand-region eshell-z eshell-prompt-extras eshell-autojump emmet-mode elisp-slime-nav dired-details+ dired+ diminish company-tern company-anaconda cmake-mode cdlatex auctex ace-window))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

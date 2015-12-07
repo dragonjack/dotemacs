@@ -19,9 +19,8 @@
 (defconst my-conf-path (concat my-emacs-path "config/"))
 (defconst my-config-dir (concat my-emacs-path "config/"))
 
-
 (setq custom-theme-directory my-config-dir)
-(setq bookmark-defaul-file (concat my-emacs-path ".emacs.bmk")) ;书签文件
+;(setq bookmark-default-file (concat my-emacs-path ".emacs.bmk")) ;书签文件
 (setq custom-file (concat my-config-dir "custom.el"))
 (load custom-file 'noerror)
 

@@ -1,0 +1,11 @@
+#!/bin/bash
+if [ -f ~/.setrospath ]; then
+        . ~/.setrospath
+fi
+# LANG=zh_CN.utf8 exec emacsclient -nc $@ -a ""
+emacsclient -n -e "(if (> (length (frame-list)) 1) 't)" | grep t -q
+if [ "$?" = "1" ]; then
+    LANG=zh_CN.utf8 exec emacsclient -c -n -a "" "$@"
+else
+    LANG=zh_CN.utf8 exec emacsclient -n -a "" "$@"
+fi

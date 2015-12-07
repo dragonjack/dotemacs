@@ -5,6 +5,7 @@
 (require-package 'yasnippet)
 (require 'yasnippet)
 
+(setq yas-snippet-dirs (concat my-emacs-path "snippets/"))
 (setq-default yas/my-own-command 'return-nil)
 
 (yas-global-mode 1)
