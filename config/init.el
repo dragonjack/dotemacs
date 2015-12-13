@@ -9,8 +9,10 @@
 ;(set-fontset-font (frame-parameter nil 'font)
 ;                 'bopomofo (font-spec :family "WenQuanYi Micro Hei" :size 16))
 
-(defconst  my-emacs-path "~/my_emacs/")
-(defconst  my-emacs-dir "~/my_emacs/.emacs.d/")
+;; TODO: set these path according to OS type
+(defconst  my-emacs-path (expand-file-name "~/my_emacs/"))
+(defconst  my-emacs-dir (expand-file-name "~/my_emacs/.emacs.d/"))
+(defconst  my-dropbox-path (expand-file-name "~/Dropbox/"))
 ;(defconst my-emacs-path "/media/Works/smallqiang/myEmacs/")
 ;(defconst my-emacs-dir "/media/Works/smallqiang/.emacs.d/")
 (defconst  my-lisp-path (concat my-emacs-path "site-lisp/"))

@@ -27,7 +27,7 @@
 #+NAME: basic
 #+BEGIN_SRC emacs-lisp
 ;(if (eq system-type 'windows-nt)
-(setq org-directory "~/Dropbox/Notes/org/")
+(setq org-directory (concat my-dropbox-path "Notes/org/"))
 ;  (setq org-directory "~/Notes/org/")
 ;  )
 

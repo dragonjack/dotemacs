@@ -260,6 +260,7 @@ single file by simply (ome-load \"ome-module.org\" \"part1\"
 (my-org-load "modules/prog-js.org")
 (my-org-load "modules/orgmode.org")
 ;;(my-org-load "modules/erc.org")
+(my-org-load "modules/org-ref.org")
 (my-org-load "modules/calendar.org")
 (my-org-load "modules/keybinding.org")
 #+END_SRC

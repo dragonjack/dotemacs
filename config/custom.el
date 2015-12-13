@@ -1,7 +1,7 @@
 ;;=========================================================
 ;;============关于 custom 的配置=============================
 ;;=========================================================
-;;Time-stamp: <kai 2015-12-07 17:04:43>
+;;Time-stamp: <kai 2015-12-12 21:20:30>
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
@@ -15,7 +15,7 @@
  '(org-export-backends (quote (ascii beamer html icalendar latex md gfm)))
  '(package-selected-packages
    (quote
-	(eldoc-eval zeal-at-point yasnippet undo-tree swiper smartparens rainbow-mode rainbow-delimiters pyvenv pcomplete-extension pcmpl-git org-plus-contrib org multiple-cursors magit linum-relative irony htmlize helm-projectile helm-ls-git guru-mode grizzl geiser flycheck-color-mode-line expand-region eshell-z eshell-prompt-extras eshell-autojump emmet-mode elisp-slime-nav dired-details+ dired+ diminish company-tern company-anaconda cmake-mode cdlatex auctex ace-window))))
+	(key-chord ebib hydra f s helm-bibtex eldoc-eval zeal-at-point yasnippet undo-tree swiper smartparens rainbow-mode rainbow-delimiters pyvenv pcomplete-extension pcmpl-git org-plus-contrib org multiple-cursors magit linum-relative irony htmlize helm-projectile helm-ls-git guru-mode grizzl geiser flycheck-color-mode-line expand-region eshell-z eshell-prompt-extras eshell-autojump emmet-mode elisp-slime-nav dired-details+ dired+ diminish company-tern company-anaconda cmake-mode cdlatex auctex ace-window))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
